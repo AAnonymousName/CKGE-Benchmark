@@ -1,4 +1,5 @@
-# Code, datasets for the paper “Rethinking Continual Knowledge Graph Embedding: Benchmarks and Analysis”
+# Rethinking Continual Knowledge Graph Embedding: Benchmarks and Analysis
+Code, datasets for the paper “Rethinking Continual Knowledge Graph Embedding: Benchmarks and Analysis”.
 ### Dataset
 ```
 Data
