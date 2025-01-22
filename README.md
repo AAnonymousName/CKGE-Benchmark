@@ -16,17 +16,15 @@ The PS-CKGE benchmark and the reconstructed FACT* benchmark, with aligned update
 ### Reproduce PS-CKGE benchmarks
 Create a folder in the `data/PS-CKGE` directory, and name it after the new dataset you want to build.
 
-To construct a single-update CKGE benchmark with pattern shifts, create subfolders named `0`, `1` inside this folder, and run：
+To construct a single-update CKGE benchmark with pattern shifts, create subfolders named `0`, `1` inside this folder, and run in the [RuleC](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/RuleC) repository：
 ```sh
-cd RuleC
 python construct_1_update.py --instance_name rule_instances.txt --data_name <dataset_name> --ratio <data_ratio>
 
 ```
 `<dataset_name>` represents the name of this folder. `<data_ratio>` represents the ratio of the number of triples in the initial snapshot and the number of newly added triples during each update which can be set to `4:1` or `3:2`.
 
-To construct a double-update CKGE benchmark with pattern shifts, create subfolders named `0`, `1`, `2` inside this folder, and run：
+To construct a double-update CKGE benchmark with pattern shifts, create subfolders named `0`, `1`, `2` inside this folder, and run in the [RuleC](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/RuleC) repository：
 ```sh
-cd RuleC
 python construct_2_update.py --instance_name rule_instances.txt --data_name <dataset_name>
 
 ```
