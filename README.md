@@ -12,7 +12,7 @@ data
 │  ├── PS-CKGE-4_1
 │  ├── PS-CKGE-3_1_1
 ```
-We restructured the FACT benchmark and refer to it as FACT* (FACT_star) for comparison.  For both PS-CKGE and FACT*, we develop three dynamic scenarios with aligned update ratios of 3:2, 4:1 and 3:1:1.
+The PS-CKGE benchmark and the reconstructed FACT* benchmark, with aligned update ratios of 3:2, 4:1, and 3:1:1, are organized in the /data repository.
 ### Reproduce PS-CKGE benchmarks
 First, create a folder in the data/PS-CKGE directory, and name it after the new dataset you want to build.
 
