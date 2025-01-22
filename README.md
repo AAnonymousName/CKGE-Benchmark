@@ -12,7 +12,7 @@ data
 │  ├── PS-CKGE-4_1
 │  ├── PS-CKGE-3_1_1
 ```
-The PS-CKGE benchmark and the reconstructed FACT* benchmark, with aligned update ratios of 3:2, 4:1, and 3:1:1, are organized in the /data repository.
+The PS-CKGE benchmark and the reconstructed FACT* benchmark, with aligned update ratios of 3:2, 4:1, and 3:1:1, are organized in the [data](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/data) repository.
 ### Reproduce PS-CKGE benchmarks
 First, create a folder in the data/PS-CKGE directory, and name it after the new dataset you want to build.
 
