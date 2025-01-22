@@ -3,16 +3,16 @@ Code, datasets for the paper “Rethinking Continual Knowledge Graph Embedding: 
 ### Dataset
 ```
 Data
-├──FACT*
-│  ├── FACT-3_2
-│  ├── FACT-4_1
-│  ├── FACT-3_1_1
+├──FACT_star
+│  ├── FACT_star-3_2
+│  ├── FACT_star-4_1
+│  ├── FACT_star-3_1_1
 ├──PS-CKGE
 │  ├── PS-CKGE-3_2
 │  ├── PS-CKGE-4_1
 │  ├── PS-CKGE-3_1_1
 ```
-We restructured the FACT dataset and refer to it as FACT*. For both FACT* and our dataset, we set up three dynamic scenarios with data ratios of 3:2, 4:1 and 3:1:1 respectively.
+We restructured the FACT benchmark and refer to it as FACT* (FACT_star) for comparison.  For both PS-CKGE and FACT*, we develop three dynamic scenarios with aligned update ratios of 3:2, 4:1 and 3:1:1.
 ### Reproduce PS-CKGE benchmarks
 To construct a single-update CKGE benchmark with pattern shifts, create subfolders named `0`, `1`, and run：
 ```sh
