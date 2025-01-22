@@ -14,9 +14,9 @@ data
 ```
 The PS-CKGE benchmark and the reconstructed FACT* benchmark, with aligned update ratios of 3:2, 4:1, and 3:1:1, are organized in the [data](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/data) repository.
 ### Reproduce your own PS-CKGE benchmarks
-Create a folder in the data/PS-CKGE/mybench, and name it after the new dataset you want to build.
+Create a folder in the `data/PS-CKGE/mybench`, and name it after the new dataset you want to build.
 
-To construct a single-update CKGE benchmark with pattern shifts, create subfolders named 0, 1 under data/PS-CKGE/mybench, and run in the [RuleC](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/RuleC) repository：
+To construct a single-update CKGE benchmark with pattern shifts, create subfolders named 0, 1 under `data/PS-CKGE/mybench`, and run in the [RuleC](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/RuleC) repository：
 ```sh
 python construct_1_update.py --instance_name rule_instances.txt --data_name mybench --ratio <data_ratio>
 
@@ -24,7 +24,7 @@ python construct_1_update.py --instance_name rule_instances.txt --data_name mybe
 `<dataset_name>` represents the name of your own benchmark. `<data_ratio>` represents the ratio of the number of triples in the initial snapshot and the number of newly added triples during each update which can be set to `4:1` or `3:2`.
 
 
-To construct a double-update CKGE benchmark with pattern shifts, create subfolders named 0, 1, 2 under data/PS-CKGE/mybench, and run in the [RuleC](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/RuleC) repository：
+To construct a double-update CKGE benchmark with pattern shifts, create subfolders named 0, 1, 2 under `data/PS-CKGE/mybench`, and run in the [RuleC](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/RuleC) repository：
 ```sh
 python construct_2_update.py --instance_name rule_instances.txt --data_name mybench
 
