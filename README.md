@@ -27,5 +27,5 @@ python construct_2_update.py --instance_name <instance_file> --data_name <datase
 
 ```
 
-### Reproduction of experimental results
+### Reproduce experimental results
 To reproduce the experimental results of CKGE method LKGE, the souce code of [LKGE](https://github.com/nju-websoft/LKGE) can be directly used.
