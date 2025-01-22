@@ -14,7 +14,7 @@ data
 ```
 The PS-CKGE benchmark and the reconstructed FACT* benchmark, with aligned update ratios of 3:2, 4:1, and 3:1:1, are organized in the [data](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/data) repository.
 ### Reproduce your own PS-CKGE benchmarks
-Create a folder in the `data/PS-CKGE/mybench`, mybench can be replaced by your own benchmark name.
+Create a folder in the `data/PS-CKGE/mybench`, `mybench` can be replaced by your own benchmark name.
 
 To construct a single-update CKGE benchmark with pattern shifts, create subfolders named 0, 1 under `data/PS-CKGE/mybench`, and run in the [RuleC](https://github.com/AAnonymousName/CKGE-Benchmark/edit/main/RuleC) repository：
 ```sh
