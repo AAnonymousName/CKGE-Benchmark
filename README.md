@@ -1,4 +1,4 @@
-# Benchmarking Continual Knowledge Graph Embedding with Pattern Shifts
+# Rethinking Continual Knowledge Graph Embedding: Benchmarks and Analysis
 ### Dataset
 ```
 FACT*
